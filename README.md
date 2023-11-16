@@ -11,12 +11,12 @@ Este proyecto es una prueba técnica que utiliza Docker para facilitar el entorn
 ### 1. Clonar el Repositorio
 
 
-`git clone https://github.com/DavidCLuna/entrevistaSolatis.git`
+`git clone git@github.com:DavidCLuna/entrevistaSolatis.git`
 `cd entrevistaSolatis`
 
 ### 2. Iniciar el Contenedor
 
-`docker-compose up -d --build`
+`sudo docker-compose up -d --build`
 
 Este comando creará y ejecutará los contenedores definidos en el archivo docker-compose.yml. Asegúrate de estar en el directorio del proyecto antes de ejecutar este comando.
 

@@ -2,7 +2,7 @@ async function axiosFunctionUtil(method, endpoint, data = null) {
     try {
         const response = await axios({
             method: method,
-            url: `http://localhost:8085/backend/index.php?action=${endpoint}`,
+            url: `${API_BACKEND}${endpoint}`,
             data: data
         });
         return response.data;

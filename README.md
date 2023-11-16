@@ -22,7 +22,7 @@ Este comando creará y ejecutará los contenedores definidos en el archivo docke
 
 ### 3. Acceder al Proyecto
 
-Una vez que los contenedores estén en ejecución, puedes acceder al proyecto desde tu navegador web en http://localhost:8085.
+Una vez que los contenedores estén en ejecución, puedes acceder al proyecto desde tu navegador web en http://localhost:8085/frontend.
 
 ## Detalles del Proyecto
 Tecnologías Utilizadas

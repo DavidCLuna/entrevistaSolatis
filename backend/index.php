@@ -3,11 +3,12 @@
 require_once __DIR__.'/app/db/Database.php';
 require_once __DIR__.'/app/controller/CancionController.php';
 
+// Habilitar CORS
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE");
 header("Access-Control-Allow-Headers: Content-Type");
 
-// Crear instancias necesarias
+// Crear instancias necesarias 
 $db = Database::getInstance();
 $cancionDAO = new CancionDAO($db);
 $cancionController = new CancionController($cancionDAO);
